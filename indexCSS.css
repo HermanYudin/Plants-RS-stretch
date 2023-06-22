@@ -19,7 +19,7 @@
   }
 
   @font-face {
-    src: url('fonts/inika.woff');
+    src: url('fonts/Inika.woff');
   
     font-style: normal;
     font-weight: 400;
@@ -755,7 +755,13 @@
 }
 
 .service-item:nth-child(2){
-  padding: 12px 54px 12px 54px;
+  padding: 10px 54px 10px 54px;
+}
+
+@media (min-width: 768px) and (max-width: 1439px){
+  .service-item:nth-child(2){
+    padding: 12px 54px 12px 54px;
+  }
 }
 
 .service-item:nth-child(n+1){
